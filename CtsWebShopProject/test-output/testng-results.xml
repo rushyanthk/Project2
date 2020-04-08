@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-07T20:05:13 IST" name="Default suite" finished-at="2020-04-07T20:05:36 IST" duration-ms="23538">
+    <groups>
+    </groups>
+    <test started-at="2020-04-07T20:05:13 IST" name="Default test" finished-at="2020-04-07T20:05:36 IST" duration-ms="23538">
+      <class name="selenium.project.ValidateLogin">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:selenium.project.ValidateLogin@d771cc9]" started-at="2020-04-07T20:05:13 IST" name="intialize" finished-at="2020-04-07T20:05:29 IST" duration-ms="16849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="loginfunctionality()[pri:0, instance:selenium.project.ValidateLogin@d771cc9]" started-at="2020-04-07T20:05:30 IST" name="loginfunctionality" finished-at="2020-04-07T20:05:36 IST" duration-ms="6483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfunctionality -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:selenium.project.ValidateLogin@d771cc9]" started-at="2020-04-07T20:05:36 IST" name="browserclose" finished-at="2020-04-07T20:05:36 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- selenium.project.ValidateLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
