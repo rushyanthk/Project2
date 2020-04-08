@@ -22,7 +22,7 @@ public class Base {
 	public WebDriver intializebrowser() throws IOException {
 
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\User\\eclipse-workspace\\CtsWebShopProject\\src\\main\\java\\resources\\DataDriven.properties");
+		FileInputStream fis = new FileInputStream("src\\main\\java\\resources\\DataDriven.properties");
 		prop.load(fis); 
 		String browserName = prop.getProperty("browser");
 		if (browserName.equalsIgnoreCase("chrome")) {

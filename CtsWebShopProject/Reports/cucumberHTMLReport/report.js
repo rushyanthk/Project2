@@ -48,7 +48,7 @@ formatter.match({
   "location": "ValidateRegistation.intialize_the_browser_with_chrome_Driver()"
 });
 formatter.result({
-  "duration": 14651253300,
+  "duration": 11575142700,
   "status": "passed"
 });
 formatter.match({
@@ -61,35 +61,35 @@ formatter.match({
   "location": "ValidateRegistation.navigate_to(String)"
 });
 formatter.result({
-  "duration": 4093164800,
+  "duration": 4525908500,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateRegistation.click_on_Register_in_home_page_to_land_on_secure_Registration_page()"
 });
 formatter.result({
-  "duration": 1069269700,
+  "duration": 846720500,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateRegistation.user_enters_registration_details_and_clicks_on_Register()"
 });
 formatter.result({
-  "duration": 4942504300,
+  "duration": 3563533300,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateRegistation.verify_that_user_is_able_register_or_not()"
 });
 formatter.result({
-  "duration": 463476000,
+  "duration": 418429300,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateRegistation.application_should_be_closed()"
 });
 formatter.result({
-  "duration": 121332700,
+  "duration": 4086273100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -201,7 +201,7 @@ formatter.match({
   "location": "ValidateLogin.intialize_the_browser_with_chrome()"
 });
 formatter.result({
-  "duration": 9554279200,
+  "duration": 9772020300,
   "status": "passed"
 });
 formatter.match({
@@ -214,14 +214,14 @@ formatter.match({
   "location": "ValidateLogin.navigate_to(String)"
 });
 formatter.result({
-  "duration": 2826494900,
+  "duration": 3188305200,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateLogin.click_on_login_in_home_page_to_land_on_secure_sign_in_page()"
 });
 formatter.result({
-  "duration": 807087600,
+  "duration": 798549500,
   "status": "passed"
 });
 formatter.match({
@@ -238,21 +238,21 @@ formatter.match({
   "location": "ValidateLogin.user_enters_and_and_login(String,String)"
 });
 formatter.result({
-  "duration": 2012500600,
+  "duration": 1927154300,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateLogin.verify_that_user_is_successfully_login_or_not()"
 });
 formatter.result({
-  "duration": 605418900,
+  "duration": 656796500,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateLogin.application_should_be_closed()"
 });
 formatter.result({
-  "duration": 185332200,
+  "duration": 83408400,
   "status": "passed"
 });
 formatter.scenario({
@@ -292,7 +292,7 @@ formatter.match({
   "location": "ValidateTextAndImage.intialize_the_browser_with_chrome()"
 });
 formatter.result({
-  "duration": 9829240400,
+  "duration": 9586103600,
   "status": "passed"
 });
 formatter.match({
@@ -305,28 +305,28 @@ formatter.match({
   "location": "ValidateTextAndImage.user_enter_navigated_to_home_page(String)"
 });
 formatter.result({
-  "duration": 3855856300,
+  "duration": 4350739900,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateTextAndImage.verify_that_user_is_able_to_see_the_Feature_Products_text_is_present_in_the_home_page_or_not()"
 });
 formatter.result({
-  "duration": 73088500,
+  "duration": 71925400,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateTextAndImage.verify_that_user_is_able_to_see_the_demo_webshop_image_is_present_in_the_home_page_or_not()"
 });
 formatter.result({
-  "duration": 486591800,
+  "duration": 454224000,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateTextAndImage.application_should_be_closed()"
 });
 formatter.result({
-  "duration": 118795200,
+  "duration": 78436500,
   "status": "passed"
 });
 formatter.scenario({
@@ -366,7 +366,7 @@ formatter.match({
   "location": "BookNavigationPages.intialize_the_browser_with_chrome_driver()"
 });
 formatter.result({
-  "duration": 9655458000,
+  "duration": 9574485100,
   "status": "passed"
 });
 formatter.match({
@@ -379,28 +379,28 @@ formatter.match({
   "location": "BookNavigationPages.user_enters_something_navigated_to_home_page(String)"
 });
 formatter.result({
-  "duration": 4049372800,
+  "duration": 3522200500,
   "status": "passed"
 });
 formatter.match({
   "location": "BookNavigationPages.user_clicks_on_book_link()"
 });
 formatter.result({
-  "duration": 1262401700,
+  "duration": 1191234600,
   "status": "passed"
 });
 formatter.match({
   "location": "BookNavigationPages.verify_that_user_is_able_to_navigated_to_webshop_book_page_or_not()"
 });
 formatter.result({
-  "duration": 423244000,
+  "duration": 421934400,
   "status": "passed"
 });
 formatter.match({
   "location": "BookNavigationPages.application_should_be_closed()"
 });
 formatter.result({
-  "duration": 223595400,
+  "duration": 153408000,
   "status": "passed"
 });
 });
