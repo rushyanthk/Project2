@@ -58,7 +58,7 @@ public class ValidateLogin extends Base {
 		Assert.assertTrue(ph.getsearch().isDisplayed());
 		log.debug("taking screenshot");
 		screenShot("ScreenShots\\validatelogin.png");
-		log.info("the image screen shot taken successfully");
+		log.info("the login status screenshot have been  taken successfully");
 	}
 
 	@Then("^Application should be closed$")

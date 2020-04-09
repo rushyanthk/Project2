@@ -7,10 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class RegisterPage {
 
-	public WebDriver driver;
-
 	public RegisterPage(WebDriver driver) {
-		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
@@ -46,35 +43,7 @@ public class RegisterPage {
 	public void ClickOnrRegister() {
 		register.click();;
 	}
-//	
-//	public WebElement getgender() {
-//		return gender;	
-//	}
-//	
-//	public WebElement firstname() {
-//		return firstname;	
-//	}
-//	
-//	public WebElement lasname() {
-//		return lastname;	
-//	}
-//	
-//	public WebElement email() {
-//		return email;
-//	}
-//	
-//	public WebElement password() {
-//		return password;
-//	}
-//	
-//	public WebElement confirmpassword() {
-//		return confirmpassword;
-//	}
-//	
-//	public WebElement submit() {
-//		return submit;
-//	}
-//	
+	
 	public String GetText() {
 		return text.getText();
 	}

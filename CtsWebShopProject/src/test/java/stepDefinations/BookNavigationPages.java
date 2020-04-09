@@ -45,7 +45,7 @@ public class BookNavigationPages extends Base {
         assertEquals(actualbookpageTitle,"Demo Web Shop. Books");
         log.debug("taking screenshot");
         screenShot("ScreenShots\\booknavigation.png");
-        log.info("the image screen shot taken successfully");
+        log.info("the navigation page screenshot have been taken successfully");
     }
     @Then("^application should be Closed$")
     public void application_should_be_closed() throws Throwable {

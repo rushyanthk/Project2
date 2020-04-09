@@ -10,7 +10,6 @@ public class SortByPriceLowToHighPage {
 	public WebDriver driver;
 
 	public SortByPriceLowToHighPage(WebDriver driver) {
-		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
@@ -25,15 +24,16 @@ public class SortByPriceLowToHighPage {
 	WebElement sortByDropDown;
 	
 	public void SortByDropDownAndSelectLowtoHigh() {
-		//sortByDropDown.click();
 		Select price = new Select(sortByDropDown);
 		price.selectByVisibleText("Price: Low to High");		
 	}
 	
-	public String getUrl()
-	{
-		
-		return driver.getTitle();
+	public String getSelectedFilterDropDown()
+	{		
+		Select select = new Select(sortByDropDown);
+		WebElement option = select. getFirstSelectedOption();
+		String text = option. getText();
+		return text;
 		
 	}
 	

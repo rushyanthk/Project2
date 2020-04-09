@@ -42,8 +42,8 @@ public class ValidateSortByFiletr extends Base {
 		sb.SortByDropDownAndSelectLowtoHigh();
 		log.info("the low to high price filter have been selected successfully");
 		log.debug("taking screenshot");
-		screenShot("ScreenShots\\InValidRegister.png");
-		log.info("the image screen shot taken successfully");
+		screenShot("ScreenShots\\LowToHighPriceFilter.png");
+		log.info("the selected  filter screenshot have been taken successfully");
 
 
 	}
@@ -51,8 +51,8 @@ public class ValidateSortByFiletr extends Base {
 	@Then("^veryfy that the displayed products in low to high price or not$")
 	public void veryfy_that_the_displayed_products_in_low_to_high_price_or_not() throws Throwable {
 		SortByPriceLowToHighPage sb = new SortByPriceLowToHighPage(driver);
-		String actualfilterUrl = sb.getUrl();
-		String expectedfilterurl = "http://demowebshop.tricentis.com/producttag/16/digital?orderby=10";
+		String actualfilterUrl = sb.getSelectedFilterDropDown();
+		String expectedfilterurl = "Price: Low to High";
 		log.debug("now validating the  price filter");
 		if (actualfilterUrl.equals(expectedfilterurl)) {
 			log.info("the products are displyed in low to high price");

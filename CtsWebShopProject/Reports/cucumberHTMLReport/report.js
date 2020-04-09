@@ -48,7 +48,7 @@ formatter.match({
   "location": "ValidateRegistation.intialize_the_browser_with_chrome_Driver()"
 });
 formatter.result({
-  "duration": 11413215800,
+  "duration": 11569541700,
   "status": "passed"
 });
 formatter.match({
@@ -61,35 +61,35 @@ formatter.match({
   "location": "ValidateRegistation.user_enters_Navigate_to_Home_page(String)"
 });
 formatter.result({
-  "duration": 3035517700,
+  "duration": 4055983900,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateRegistation.click_on_Register_in_home_page_to_land_on_secure_Registration_page()"
 });
 formatter.result({
-  "duration": 943283600,
+  "duration": 927276200,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateRegistation.user_enters_registration_details_and_clicks_on_Register()"
 });
 formatter.result({
-  "duration": 3871903200,
+  "duration": 3476324500,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateRegistation.verify_that_user_is_able_register_or_not()"
 });
 formatter.result({
-  "duration": 555240400,
+  "duration": 477645400,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateRegistation.application_should_be_closed()"
 });
 formatter.result({
-  "duration": 92565300,
+  "duration": 134036500,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -201,7 +201,7 @@ formatter.match({
   "location": "ValidateLogin.intialize_the_browser_with_chrome()"
 });
 formatter.result({
-  "duration": 9666101200,
+  "duration": 9642233400,
   "status": "passed"
 });
 formatter.match({
@@ -214,14 +214,14 @@ formatter.match({
   "location": "ValidateLogin.user_enter_navigate_to_Home_Page(String)"
 });
 formatter.result({
-  "duration": 3878089600,
+  "duration": 3985000500,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateLogin.click_on_login_in_home_page_to_land_on_secure_sign_in_page()"
 });
 formatter.result({
-  "duration": 1136007100,
+  "duration": 751573900,
   "status": "passed"
 });
 formatter.match({
@@ -238,21 +238,21 @@ formatter.match({
   "location": "ValidateLogin.user_enters_and_and_login(String,String)"
 });
 formatter.result({
-  "duration": 1860836200,
+  "duration": 1608851200,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateLogin.verify_that_user_is_successfully_login_or_not()"
 });
 formatter.result({
-  "duration": 643848400,
+  "duration": 561333700,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateLogin.application_should_be_closed()"
 });
 formatter.result({
-  "duration": 215479100,
+  "duration": 88489500,
   "status": "passed"
 });
 formatter.scenario({
@@ -292,7 +292,7 @@ formatter.match({
   "location": "ValidateTextAndImage.intialize_the_browser_with_chrome()"
 });
 formatter.result({
-  "duration": 9671282100,
+  "duration": 9617923800,
   "status": "passed"
 });
 formatter.match({
@@ -305,28 +305,28 @@ formatter.match({
   "location": "ValidateTextAndImage.user_enter_navigated_to_home_page(String)"
 });
 formatter.result({
-  "duration": 3890082900,
+  "duration": 3035405300,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateTextAndImage.verify_that_user_is_able_to_see_the_Feature_Products_text_is_present_in_the_home_page_or_not()"
 });
 formatter.result({
-  "duration": 114769700,
+  "duration": 76538700,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateTextAndImage.verify_that_user_is_able_to_see_the_demo_webshop_image_is_present_in_the_home_page_or_not()"
 });
 formatter.result({
-  "duration": 621261300,
+  "duration": 522941800,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateTextAndImage.application_should_be_closed()"
 });
 formatter.result({
-  "duration": 77788300,
+  "duration": 92354000,
   "status": "passed"
 });
 formatter.scenario({
@@ -366,7 +366,7 @@ formatter.match({
   "location": "BookNavigationPages.intialize_the_browser_with_chrome_driver()"
 });
 formatter.result({
-  "duration": 9567176500,
+  "duration": 9598984900,
   "status": "passed"
 });
 formatter.match({
@@ -379,28 +379,28 @@ formatter.match({
   "location": "BookNavigationPages.user_enters_something_navigated_to_home_page(String)"
 });
 formatter.result({
-  "duration": 3028463400,
+  "duration": 2833373000,
   "status": "passed"
 });
 formatter.match({
   "location": "BookNavigationPages.user_clicks_on_book_link()"
 });
 formatter.result({
-  "duration": 1488632600,
+  "duration": 1665551000,
   "status": "passed"
 });
 formatter.match({
   "location": "BookNavigationPages.verify_that_user_is_able_to_navigated_to_webshop_book_page_or_not()"
 });
 formatter.result({
-  "duration": 437049500,
+  "duration": 502929300,
   "status": "passed"
 });
 formatter.match({
   "location": "BookNavigationPages.application_should_be_closed()"
 });
 formatter.result({
-  "duration": 152129500,
+  "duration": 117011200,
   "status": "passed"
 });
 formatter.scenario({
@@ -445,7 +445,7 @@ formatter.match({
   "location": "ValidateSortByFiletr.intialize_The_browser_with_chrome_driver()"
 });
 formatter.result({
-  "duration": 9440871500,
+  "duration": 9454648300,
   "status": "passed"
 });
 formatter.match({
@@ -458,35 +458,35 @@ formatter.match({
   "location": "ValidateSortByFiletr.user_Enters_navigated_to_home_page(String)"
 });
 formatter.result({
-  "duration": 2648651300,
+  "duration": 3881474600,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateSortByFiletr.user_clicks_on_digital_link()"
 });
 formatter.result({
-  "duration": 1029718600,
+  "duration": 1221366000,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateSortByFiletr.selecting_low_to_high_price_filter_in_Sort_By_drop_down()"
 });
 formatter.result({
-  "duration": 823543700,
+  "duration": 1618453300,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateSortByFiletr.veryfy_that_the_displayed_products_in_low_to_high_price_or_not()"
 });
 formatter.result({
-  "duration": 10588300,
+  "duration": 153693700,
   "status": "passed"
 });
 formatter.match({
   "location": "ValidateSortByFiletr.application_Should_Be_Closed()"
 });
 formatter.result({
-  "duration": 111052500,
+  "duration": 142708700,
   "status": "passed"
 });
 });

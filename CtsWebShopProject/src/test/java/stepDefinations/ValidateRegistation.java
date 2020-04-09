@@ -71,7 +71,7 @@ public class ValidateRegistation extends Base {
 		}
 		log.debug("taking screenshot");
 		screenShot("ScreenShots\\InValidRegister.png");
-		log.info("the image screen shot taken successfully");
+		log.info("the registration status screenshot have been taken successfully");
 
 	}
 

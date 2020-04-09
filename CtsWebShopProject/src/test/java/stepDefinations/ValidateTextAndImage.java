@@ -50,7 +50,7 @@ public class ValidateTextAndImage extends Base {
 		assertTrue(vp.getimg().isDisplayed());
 		log.info("the specified image is present");
 		log.debug("taking screenshot");
-		screenShot("ScreenShots\\ValidateTextAndImage.png");
+		screenShot("ScreenShots\\ValidateImage.png");
 		log.info("the image screen shot taken successfully");
 	}
 
