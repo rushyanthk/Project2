@@ -17,8 +17,8 @@ public class ValidatePage {
 	@FindBy(xpath = "/html/body/div[4]/div[1]/div[4]/div[3]/div/div/div[3]/div[1]/strong")
 	WebElement title;
    
-	public WebElement getTitle() {
-		return title;
+	public String getTitle() {
+		return title.getText();
 	}
 	
 	@FindBy(xpath = "/html/body/div[4]/div[1]/div[1]/div[1]/a/img")

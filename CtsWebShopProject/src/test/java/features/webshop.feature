@@ -2,19 +2,18 @@ Feature: Testing Demo Webshop
 
 Scenario: Validate Registration
 Given intialize the browser with chrome Driver
-And Navigate to "http://demowebshop.tricentis.com/"
+When user enters "http://demowebshop.tricentis.com/" Navigate to Home page
 And click on Register in home page to land on secure Registration page
-When user enters registration details and clicks on Register
+And user enters registration details and clicks on Register
 Then verify that user is able register or not
 Then application should be closed
 
 
-
 Scenario Outline: positive test validating login
 Given intialize the browser with chrome
-And navigate to "http://demowebshop.tricentis.com/"
+When User enter "http://demowebshop.tricentis.com/" navigate to Home Page
 And click on login in home page to land on secure sign in page
-When user enters <username> and <password> and login
+And user enters <username> and <password> and login
 Then verify that user is successfully login or not
 Then Application should be closed
 
@@ -35,3 +34,11 @@ When user enters "http://demowebshop.tricentis.com/" navigated to home page
 When user clicks on book link
 Then verify that user is able to navigated to webshop book page or not
 Then application should be Closed
+
+Scenario: validate sort by filter
+Given intialize The browser with chrome driver
+When user Enters "http://demowebshop.tricentis.com/" navigated to home page
+And  user clicks on digital link
+And  selecting low to high price filter in Sort By drop down
+Then veryfy that the displayed products in low to high price or not
+Then Application Should Be Closed

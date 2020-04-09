@@ -15,8 +15,8 @@ import resources.Base;
 
 @RunWith(Cucumber.class)
 public class BookNavigationPages extends Base {
-	Logger log= LogManager.getLogger(ValidateLogin.class.getName());
-
+	final static Logger log = LogManager.getLogger(BookNavigationPages.class.getName());
+	
     @Given("^intialize the browser with chrome driver$")
     public void intialize_the_browser_with_chrome_driver() throws Throwable {
     	log.debug("setting chrome driver property");
@@ -35,7 +35,7 @@ public class BookNavigationPages extends Base {
     public void user_clicks_on_book_link() throws Throwable {
        BookNavigationPage bp=new BookNavigationPage(driver);
        log.debug("licking on book button");
-  	   bp.navigatetobookpage().click();
+  	   bp.navigatetobookpageClick();
        log.info("navigated to book page successfully");
     }
 

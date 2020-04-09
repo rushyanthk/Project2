@@ -43,44 +43,44 @@ public class RegisterPage {
 
 	
 	//methods
-	public WebElement register() {
-		return register;
+	public void ClickOnrRegister() {
+		register.click();;
 	}
-	
-	public WebElement getgender() {
-		return gender;	
-	}
-	
-	public WebElement firstname() {
-		return firstname;	
-	}
-	
-	public WebElement lasname() {
-		return lastname;	
-	}
-	
-	public WebElement email() {
-		return email;
-	}
-	
-	public WebElement password() {
-		return password;
-	}
-	
-	public WebElement confirmpassword() {
-		return confirmpassword;
-	}
-	
-	public WebElement submit() {
-		return submit;
-	}
-	
-	public WebElement GetText() {
-		return text;
+//	
+//	public WebElement getgender() {
+//		return gender;	
+//	}
+//	
+//	public WebElement firstname() {
+//		return firstname;	
+//	}
+//	
+//	public WebElement lasname() {
+//		return lastname;	
+//	}
+//	
+//	public WebElement email() {
+//		return email;
+//	}
+//	
+//	public WebElement password() {
+//		return password;
+//	}
+//	
+//	public WebElement confirmpassword() {
+//		return confirmpassword;
+//	}
+//	
+//	public WebElement submit() {
+//		return submit;
+//	}
+//	
+	public String GetText() {
+		return text.getText();
 	}
 	
 	//METHOD TO FILL THE REGISTRATION DETAILS
-	public void details(String[] data) {
+	public void RegisterDetails(String[] data) {
 		
 		register.click();
 		firstname.sendKeys(data[0]);

@@ -17,8 +17,8 @@ public class BookNavigationPage {
 	@FindBy(xpath = "//ul[@class='list']//a[@href='/books']")
 	WebElement book;
 
-	public WebElement navigatetobookpage() {
-		return book;
+	public void navigatetobookpageClick() {
+		book.click();
 	}
 
 }

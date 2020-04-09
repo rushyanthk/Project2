@@ -17,8 +17,6 @@ public class Base {
     public WebDriver driver;
 	public Properties prop;
 	
-
-
 	public WebDriver intializebrowser() throws IOException {
 
 		Properties prop = new Properties();
@@ -47,12 +45,6 @@ public class Base {
      return driver;
 
 	}
-
-/*	public void getscreenshot(String result) throws IOException {
-		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		org.apache.commons.io.FileUtils.copyFile(src, new File(
-				"C:\\Users\\User\\eclipse-workspace\\CtsWebShopProject\\ScreenShots\\" + result + "screenshot.png"));
-	} */
 	
 	public void screenShot(String path) throws IOException{
 		File Sshot=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

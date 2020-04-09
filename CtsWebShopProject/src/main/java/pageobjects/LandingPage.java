@@ -16,8 +16,8 @@ public class LandingPage {
 	@FindBy(xpath ="//a[@class='ico-login']")
 	WebElement login;
 
-	public WebElement getlogin() {
-		return login;
+	public void loginbuttonClick() {
+		login.click();
 	}
 
 }

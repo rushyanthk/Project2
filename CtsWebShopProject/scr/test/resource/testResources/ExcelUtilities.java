@@ -1,4 +1,4 @@
-package resources;
+package testResources;
 
 import java.io.File;
 import java.io.FileInputStream;

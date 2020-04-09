@@ -16,21 +16,21 @@ public class LoginPage {
 	
 	@FindBy(id="Email")
 	WebElement email;
-	public WebElement email() {
-		return email;
+	public void enterEmail(String username) {
+		email.sendKeys(username);
 	}
 	
 	@FindBy(id="Password")
 	WebElement password;
-	public WebElement password() {
-		return password;
-		
+	
+	public void enterPassword(String Password) {
+		password.sendKeys(Password);		
 	}
 	@FindBy(xpath = "//input[@type='submit' and @class='button-1 login-button']")
 	WebElement login;
-	public WebElement login() {
+	public void submitLogin() {
 		// TODO Auto-generated method stub
-		return login;
+		login.click();
 	}
 
 }
